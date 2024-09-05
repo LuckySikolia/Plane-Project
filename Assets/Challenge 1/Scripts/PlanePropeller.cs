@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlanePropeller : MonoBehaviour
 {
-    private float propellerRotationSpeed = 150.0f;
+    [SerializeField] private float propellerRotationSpeed = 500.0f;
 
     // Start is called before the first frame update
     void Start()
